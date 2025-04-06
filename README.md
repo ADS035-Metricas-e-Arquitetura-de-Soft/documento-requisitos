@@ -34,7 +34,7 @@
 - [x] RGN 5
 
 ## Gestão de Barbearias V1
-[Repositório do Projeto de Dispositivos Móveis](https://github.com/ADS023-Programacao-Dispositivos-Moveis/projeto-pdm-01/)
+[Escopo Completo - Repositório do Projeto de Dispositivos Móveis](https://github.com/ADS023-Programacao-Dispositivos-Moveis/projeto-pdm-01/)
 
 ## O que é o Projeto
 A proposta deste projeto é criar um app que seja caapaz de auxiliar os barbeiros com as suas atividades mais comuns do dia-a-dia.. Dando a eles a possibilidade de verificar ganhos mensais, agendamentos de clientes, gestão de planos mensais e pagamento tudo via APP.
@@ -109,18 +109,16 @@ A proposta deste projeto é criar um app que seja caapaz de auxiliar os barbeiro
 * O sistema deve prevenir ataques de força bruta (ex: limitação de taxa de tentativas de login).
 * O sistema deve gerar logs de auditoria de tentativas de login (sucesso e falha).
 
-#### RC 1. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 22, 23, 24, 25, 26]
+#### RC 1. O sistema deve realizar auditoria das tentativas de login, registrando informações como data, hora, nome de usuário e resultado da tentativa. 
 
-Pri M B A
 
 #### RNF 2. Desempenho
 
 * O tempo de resposta para o login deve ser inferior a 2 segundos.
 * O sistema deve suportar um número máximo de logins simultâneos (definir um número).
 
-#### RC 4. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 26, 27, 28, 29, 30]
+#### RC 4. O sistema deve utilizar mecanismos de cache para otimizar o processo de autenticação. 
 
-Pri M A B
 
 #### RNF 3. Usabilidade
 
@@ -128,48 +126,42 @@ Pri M A B
 * As mensagens de erro devem ser claras e informativas.
 * O sistema deve fornecer feedback visual ao usuário durante o processo de login.
 
-RC 10. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 30, 31, 32, 33, 34]
+#### RC 10. A interface de login deve ser acessível a usuários com deficiência visual (e.g., suporte a leitores de tela). 
 
-Pri M B A
 
 #### RNF 4. Manutenibilidade
 
 * O código do módulo de login deve ser modular e fácil de manter.
 * As configurações de segurança (ex: número de tentativas de login) devem ser facilmente configuráveis.
 
-RC 11. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+RC 11. O sistema deve implementar mecanismos de redundância e failover para garantir a alta disponibilidade. 
 
-Pri M B A
-
-Regras de Negócio
+### Regras de Negócio
 
 #### RGN 1. Formato das Credenciais
 
 * O nome de usuário deve ter no mínimo X caracteres e no máximo Y caracteres.
 * A senha deve ter no mínimo A caracteres, conter pelo menos um caractere maiúsculo, um caractere minúsculo, um número e um caractere especial.
 
-#### RC 1. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 39, 40, 41, 42, 43]
+#### RC 1. As configurações do sistema de login (e.g., número de tentativas de login, tempo de bloqueio) devem ser facilmente alteráveis.
 
-Pri M B A
 
 #### RGN 2. Validação de E-mail
 
 * O e-mail fornecido para recuperação de senha deve ser um e-mail válido.
 
-RC 4. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 43, 44, 45, 46, 47]
+#### RC 4. O sistema deve verificar a força da senha durante o cadastro e fornecer feedback ao usuário.  
 
-Pri M B A
 
 #### RGN 3. Tempo de Bloqueio
 
 * A conta do usuário deve ser bloqueada por N minutos após M tentativas de login inválidas.
 
-RC 10. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 47, 48, 49, 50, 51]
+#### RC 10. O sistema deve permitir que o usuário escolha o método de MFA preferido.
 
-Pri A M B
 
 #### RGN 4. Expiração da Senha
 
 * A senha do usuário deve expirar a cada D dias, forçando a troca.
 
-RC 11. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 51]
+#### RC 11. O sistema deve definir um processo para reativar contas inativas. 
