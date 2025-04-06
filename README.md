@@ -2,14 +2,9 @@
 
 ## Projeto 1 - Levantamento de Requisitos / 2025
 
-### Componente Curricular: Arquitetura de Software
-### Professor: Alessandro Borges de Morais
-### Turma: 2CB | Aulas: Segundas Feiras
-
-### Curso: ADS Integrantes:
-- [@Sérgio Silva](https://github.com/sergiobslva-iesb)
-- [@Sarah Evelyn](https://github.com/SarahDevIesb)
-- [@Rhuan Justino](https://github.com/RhuanJSouza)
+| Componente Curricular: | Arquitetura de Software | Professor:   | Alessandro Borges de Morais               |
+|------------------------|-------------------------|--------------|-------------------------------------------|
+| Curso:                 | ADS                     | Integrantes: | [@Sérgio Silva](https://github.com/sergiobslva-iesb), [@Sarah Evelyn](https://github.com/SarahDevIesb), [@Rhuan Justino](https://github.com/RhuanJSouza) |
 
 ## Gestão de Barbearias V1
 [Escopo Completo - Repositório do Projeto de Dispositivos Móveis](https://github.com/ADS023-Programacao-Dispositivos-Moveis/projeto-pdm-01/)
