@@ -43,13 +43,12 @@ A proposta deste projeto é criar um app que seja caapaz de auxiliar os barbeiro
 
 ### Requisitos Funcionais
 
-#### RF 1. Título do Requisito Funcional - Aberto
+#### RF 1.  Autenticar Usuário
 
-• Descrição do requisito funcional.
-[cite: 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
-
-• Descrição do requisito funcional.
-[cite: 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
+* O sistema deve permitir que um usuário existente faça login fornecendo suas credenciais (usuário e senha).
+* O sistema deve verificar as credenciais fornecidas com as armazenadas no banco de dados.
+* O sistema deve conceder acesso ao usuário se as credenciais forem válidas.
+* O sistema deve exibir uma mensagem de erro se as credenciais forem inválidas.
 
 #### RC 1. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 7, 8, 9, 10, 11, 12, 13, 14]
 
@@ -59,13 +58,12 @@ Pós-condições: Descrição da pós-condição. [cite: 7, 8, 9, 10, 11, 12, 13
 
 Pri M B A
 
-#### RF 2. Título do Requisito Funcional - Teste
+#### RF 2. Recuperar Senha
 
-• Descrição do requisito funcional.
-[cite: 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
-
-• Descrição do requisito funcional.
-[cite: 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
+* O sistema deve permitir que o usuário solicite a recuperação de senha.
+* O sistema deve solicitar um identificador do usuário (ex: e-mail, nome de usuário).
+* O sistema deve enviar um link ou código de recuperação para o identificador fornecido.
+* O sistema deve permitir que o usuário defina uma nova senha após a verificação do link/código.
 
 #### RC 4. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 10, 11, 12, 13, 14]
 
@@ -75,13 +73,10 @@ Pós-condições: Descrição da pós-condição. [cite: 10, 11, 12, 13, 14, 15,
 
 Pri M B A
 
-#### RF 3. Título do Requisito Funcional - Revisão
+#### RF 3. Bloquear Conta
 
-• Descrição do requisito funcional.
-[cite: 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
-
-• Descrição do requisito funcional.
-[cite: 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
+* O sistema deve bloquear a conta do usuário após um número configurável de tentativas de login inválidas.
+* O sistema deve informar ao usuário que a conta foi bloqueada e o tempo para desbloqueio ou o procedimento para desbloqueá-la.
 
 RC 10. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 14, 15, 16, 17, 18]
 
@@ -91,13 +86,10 @@ Pós-condições: Descrição da pós-condição. [cite: 15, 16, 17, 18]
 
 Pri M B A
 
-#### RF 4. Título do Requisito Funcional - Concluído
+#### RF 4. Logout
 
-• Descrição do requisito funcional.
-[cite: 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
-
-• Descrição do requisito funcional.
-[cite: 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
+* O sistema deve permitir que o usuário faça logout da sua sessão.
+* O sistema deve invalidar a sessão do usuário após o logout.
 
 RC 11. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 18]
 
@@ -109,49 +101,40 @@ Pri M B A
 
 Requisitos Não Funcionais
 
-#### RNF 1. Título do Requisito Não Funcional - Aberto
+#### RNF 1. Segurança
 
-• Descrição do requisito funcional.
-[cite: 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
-
-• Descrição do requisito funcional.
-[cite: 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
+* As senhas devem ser armazenadas de forma segura (ex: criptografadas com bcrypt).
+* A comunicação entre o cliente e o servidor deve ser criptografada (HTTPS).
+* O sistema deve prevenir ataques de força bruta (ex: limitação de taxa de tentativas de login).
+* O sistema deve gerar logs de auditoria de tentativas de login (sucesso e falha).
 
 #### RC 1. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 22, 23, 24, 25, 26]
 
 Pri M B A
 
-#### RNF 2. Título do Requisito Não Funcional - Teste
+#### RNF 2. Desempenho
 
-• Descrição do requisito funcional.
-[cite: 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
-
-• Descrição do requisito funcional.
-[cite: 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
+* O tempo de resposta para o login deve ser inferior a 2 segundos.
+* O sistema deve suportar um número máximo de logins simultâneos (definir um número).
 
 #### RC 4. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 26, 27, 28, 29, 30]
 
 Pri M A B
 
-#### RNF 3. Título do Requisito Não Funcional - Revisão
+#### RNF 3. Usabilidade
 
-• Descrição do requisito funcional.
-[cite: 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
-
-• Descrição do requisito funcional.
-[cite: 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
+* A interface de login deve ser intuitiva e fácil de usar.
+* As mensagens de erro devem ser claras e informativas.
+* O sistema deve fornecer feedback visual ao usuário durante o processo de login.
 
 RC 10. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 30, 31, 32, 33, 34]
 
 Pri M B A
 
-#### RNF 4. Título do Requisito Não Funcional - Concluido
+#### RNF 4. Manutenibilidade
 
-• Descrição do requisito funcional.
-[cite: 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
-
-• Descrição do requisito funcional.
-[cite: 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
+* O código do módulo de login deve ser modular e fácil de manter.
+* As configurações de segurança (ex: número de tentativas de login) devem ser facilmente configuráveis.
 
 RC 11. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
 
@@ -159,7 +142,7 @@ Pri M B A
 
 Regras de Negócio
 
-#### RGN 1. Título da Regra de Negócio - Aberto
+#### RGN 1. Formato das Credenciais
 
 • Descrição do requisito funcional.
 [cite: 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional. Descrição do requisito funcional.
