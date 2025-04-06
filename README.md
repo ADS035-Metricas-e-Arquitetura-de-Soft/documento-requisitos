@@ -112,7 +112,7 @@ c) O sistema redireciona o usuário para a página principal ou para a página s
 * O sistema deve bloquear a conta do usuário após um número configurável de tentativas de login inválidas.
 * O sistema deve informar ao usuário que a conta foi bloqueada e o tempo para desbloqueio ou o procedimento para desbloqueá-la.
 
-#### RC 10. Título do Requisito Complementar (Opcional): Descrição do requisito complementar. [cite: 14, 15, 16, 17, 18]
+#### RC 10. O sistema deve definir um período de tempo para o bloqueio da conta (e.g., 5 minutos, 1 hora).
 
 - [x] [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O sistema deve definir um período de tempo para o bloqueio da conta (e.g., 5 minutos, 1 hora). 
 - [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O usuário deve ter inserido credenciais incorretas um número específico de vezes.
@@ -172,7 +172,7 @@ c) O sistema redireciona o usuário para a página principal ou para a página s
 * O código do módulo de login deve ser modular e fácil de manter.
 * As configurações de segurança (ex: número de tentativas de login) devem ser facilmente configuráveis.
 
-RC 11. O sistema deve implementar mecanismos de redundância e failover para garantir a alta disponibilidade. 
+#### RC 11. O sistema deve implementar mecanismos de redundância e failover para garantir a alta disponibilidade. 
 
 ### Regras de Negócio
 
