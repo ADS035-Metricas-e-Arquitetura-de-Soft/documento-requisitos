@@ -204,6 +204,13 @@ RC 11. O sistema deve implementar mecanismos de redundância e failover para gar
 
 #### RC 11. O sistema deve definir um processo para reativar contas inativas. 
 
+
+#### RGN 5. Integração com Outros Sistemas
+
+* O sistema de login deve ser capaz de se integrar com outros sistemas da empresa (e.g., CRM, ERP).
+
+#### RC 11. A integração deve ser baseada em padrões de autenticação abertos (e.g., OAuth 2.0, SAML)
+
 ---
 
 ## Artefatos Elaborados e Entregues
@@ -219,14 +226,14 @@ RC 11. O sistema deve implementar mecanismos de redundância e failover para gar
 - [x] RNF 2 - Desempenho
 - [x] RNF 3 - Usabilidade
 - [x] RNF 4 - Manutenibilidade
-- [x] RNF 5 - 
+- [x] RNF 5 - Confiabilidade
 
 ### Regras de Negócio
-- [x] RGN 1
-- [x] RGN 2
-- [x] RGN 3
-- [x] RGN 4
-- [x] RGN 5
+- [x] RGN 1 - Formato das Credenciais
+- [x] RGN 2 - Validação de E-mail
+- [x] RGN 3 - Tempo de Bloqueio
+- [x] RGN 4 - Expiração da Senha
+- [x] RGN 5 - Integração com Outros Sistemas
 
 ## Legenda
 * RF - `Requisito Funcional`
