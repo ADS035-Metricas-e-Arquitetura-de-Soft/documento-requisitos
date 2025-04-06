@@ -11,28 +11,6 @@
 - [@Sarah Evelyn](https://github.com/SarahDevIesb)
 - [@Rhuan Justino](https://github.com/RhuanJSouza)
 
-## Artefatos
-### Requisitos Funcionais
-- [x] RF 1
-- [x] RF 2
-- [x] RF 3
-- [x] RF 4
-- [x] RF 5
-
-### Requisitos Não-Funcionais
-- [x] RNF 1
-- [x] RNF 2
-- [x] RNF 3
-- [x] RNF 4
-- [x] RNF 5
-
-### Regras de Negócio
-- [x] RGN 1
-- [x] RGN 2
-- [x] RGN 3
-- [x] RGN 4
-- [x] RGN 5
-
 ## Gestão de Barbearias V1
 [Escopo Completo - Repositório do Projeto de Dispositivos Móveis](https://github.com/ADS023-Programacao-Dispositivos-Moveis/projeto-pdm-01/)
 
@@ -168,3 +146,31 @@ RC 11. O sistema deve implementar mecanismos de redundância e failover para gar
 * A senha do usuário deve expirar a cada D dias, forçando a troca.
 
 #### RC 11. O sistema deve definir um processo para reativar contas inativas. 
+
+## Artefatos
+### Requisitos Funcionais
+- [x] RF 1
+- [x] RF 2
+- [x] RF 3
+- [x] RF 4
+- [x] RF 5
+
+### Requisitos Não-Funcionais
+- [x] RNF 1
+- [x] RNF 2
+- [x] RNF 3
+- [x] RNF 4
+- [x] RNF 5
+
+### Regras de Negócio
+- [x] RGN 1
+- [x] RGN 2
+- [x] RGN 3
+- [x] RGN 4
+- [x] RGN 5
+
+## Legenda
+* RF - `Requisito Funcional`
+* RNF - `Requisito Não Funcional`
+* RGN - `Regra de Negócio`
+* RC - `Requisito Complementar`
