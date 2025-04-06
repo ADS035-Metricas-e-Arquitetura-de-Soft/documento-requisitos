@@ -46,6 +46,7 @@ A proposta deste projeto é criar um app que seja caapaz de auxiliar os barbeiro
     
     @enduml
 
+
 ### Requisitos Funcionais
 
 #### RF 1.  Autenticar Usuário
@@ -59,6 +60,39 @@ A proposta deste projeto é criar um app que seja caapaz de auxiliar os barbeiro
 
 - [x] [![Faculdade Badge](https://img.shields.io/badge/-PRÉ_CONDIÇÕES-gold)]() O usuário deve ter uma conta registrada no sistema.
 - [x] [![Faculdade Badge](https://img.shields.io/badge/-PÓS_CONDIÇÕES-red)]() O sistema deve estabelecer uma sessão para o usuário autenticado.
+
+### Fluxo Principal (Sucesso) [RF1]
+
+1) O Usuário acessa a tela de login do sistema.
+2) O sistema exibe os campos para inserir o nome de usuário (ou e-mail) e a senha.
+3) O Usuário insere seu nome de usuário (ou e-mail) e senha.
+4) O Usuário solicita a autenticação (clica em "Entrar", "Login", etc.).
+5) O sistema recebe as credenciais fornecidas.
+6) O sistema verifica se o nome de usuário (ou e-mail) existe na base de dados.
+7) O sistema recupera a senha associada ao nome de usuário (ou e-mail).
+8) O sistema compara a senha fornecida com a senha armazenada (geralmente após aplicar alguma forma de hash e salt).
+9) Se as credenciais forem válidas:
+a) O sistema autentica o usuário.
+b) O sistema inicia uma sessão para o usuário.
+c) O sistema redireciona o usuário para a página principal ou para a página solicitada.
+
+#### Fluxo Alternativo
+
+##### 1a. Credenciais Inválidas:
+* No passo 9 do fluxo principal, se o nome de usuário (ou e-mail) não for encontrado ou a senha fornecida não corresponder à senha armazenada:
+* O sistema inclui o caso de uso "Exibir Mensagens de Erro" com uma mensagem indicando que as credenciais são inválidas (por exemplo, "Nome de usuário ou senha incorretos.").
+* O sistema pode permitir que o usuário tente novamente.
+* O sistema pode registrar a tentativa de login falhada.
+
+##### 1b. Conta Inativa:
+* No passo 9 do fluxo principal, se o nome de usuário (ou e-mail) for encontrado, mas a conta do usuário estiver inativa (por exemplo, não verificada, suspensa):
+* O sistema inclui o caso de uso "Exibir Mensagens de Erro" com uma mensagem informando que a conta está inativa e, se aplicável, as instruções para ativá-la.
+* O login é negado.
+
+##### 1c. Conta Bloqueada:
+* Este fluxo é uma extensão do fluxo principal, acionado pelo caso de uso "Bloquear Conta". Se a conta do usuário estiver bloqueada devido a múltiplas tentativas de login falhadas:
+* O sistema inclui o caso de uso "Exibir Mensagens de Erro" com uma mensagem informando que a conta está bloqueada e o tempo restante para o desbloqueio ou as instruções para desbloqueá-la (por exemplo, através da recuperação de senha).
+* O login é negado.
 
 
 #### RF 2. Recuperar Senha
@@ -175,18 +209,18 @@ RC 11. O sistema deve implementar mecanismos de redundância e failover para gar
 
 ## Artefatos Elaborados e Entregues
 ### Requisitos Funcionais
-- [x] RF 1
-- [x] RF 2
-- [x] RF 3
-- [x] RF 4
-- [x] RF 5
+- [x] RF 1 - Autenticar Usuário
+- [x] RF 2 - Recuperar Senha
+- [x] RF 3 - Bloquear Conta
+- [x] RF 4 - Logout
+- [x] RF 5 - Exibir Mensagens de Erro
 
 ### Requisitos Não-Funcionais
-- [x] RNF 1
-- [x] RNF 2
-- [x] RNF 3
-- [x] RNF 4
-- [x] RNF 5
+- [x] RNF 1 - Segurança
+- [x] RNF 2 - Desempenho
+- [x] RNF 3 - Usabilidade
+- [x] RNF 4 - Manutenibilidade
+- [x] RNF 5 - 
 
 ### Regras de Negócio
 - [x] RGN 1
