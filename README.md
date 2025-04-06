@@ -42,7 +42,7 @@ A proposta deste projeto é criar um app que seja caapaz de auxiliar os barbeiro
 ## Requisitos do Sistema
 
 ### Caso de Uso
-![Diagrama de Caso de Uso de Login V1](caminho/para/sua/imagem.jpg)
+![Diagrama de Caso de Uso de Login V1](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documento-requisitos/blob/main/caso-de-uso-login-v1.svg)
 
 ### Requisitos Funcionais
 
