@@ -4,7 +4,7 @@
 
 ### Componente Curricular: Arquitetura de Software
 ### Professor: Alessandro Borges de Morais
-### Turma: 2CB | Aulas: Terça e Sexta
+### Turma: 2CB | Aulas: Segundas Feiras
 
 ### Curso: ADS Integrantes:
 - [@Sérgio Silva](https://github.com/sergiobslva-iesb)
