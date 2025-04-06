@@ -22,6 +22,30 @@ A proposta deste projeto é criar um app que seja caapaz de auxiliar os barbeiro
 ### Caso de Uso
 ![Diagrama de Caso de Uso de Login V1](https://github.com/ADS035-Metricas-e-Arquitetura-de-Soft/documento-requisitos/blob/main/caso-de-uso-login-v1.svg)
 
+### Script de Caso de Uso [PlantUML](https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
+    @startuml
+    left to right direction
+    actor "Usuário" as User
+    
+    rectangle "Sistema de Login" {
+      usecase "Autenticar Usuário" as Authenticate
+      usecase "Recuperar Senha" as RecoverPassword
+      usecase "Bloquear Conta" as BlockAccount
+      usecase "Logout" as Logout
+      usecase "Exibir Mensagens de Erro" as DisplayError
+    }
+    
+    User -- Authenticate
+    User -- RecoverPassword
+    User -- Logout
+    
+    Authenticate --|> DisplayError : <<include>>
+    RecoverPassword --|> DisplayError : <<include>>
+    
+    Authenticate ..> BlockAccount : <<extend>>
+    
+    @enduml
+
 ### Requisitos Funcionais
 
 #### RF 1.  Autenticar Usuário
