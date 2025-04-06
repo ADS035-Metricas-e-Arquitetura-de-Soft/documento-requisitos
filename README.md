@@ -147,7 +147,9 @@ RC 11. O sistema deve implementar mecanismos de redundância e failover para gar
 
 #### RC 11. O sistema deve definir um processo para reativar contas inativas. 
 
-## Artefatos
+---
+
+## Artefatos Elaborados e Entregues
 ### Requisitos Funcionais
 - [x] RF 1
 - [x] RF 2
