@@ -4,7 +4,11 @@
 
 | Componente Curricular: | Arquitetura de Software | Professor:   | Alessandro Borges de Morais               |
 |------------------------|-------------------------|--------------|-------------------------------------------|
-| Curso:                 | ADS                     | Integrantes: | [@Sérgio Silva](https://github.com/sergiobslva-iesb), [@Sarah Evelyn](https://github.com/SarahDevIesb), [@Rhuan Justino](https://github.com/RhuanJSouza) |
+| Curso:                 | [ADS](https://www.iesb.br/cursos/analise-e-desenvolvimento-de-sistemas/) | Integrantes: | [@Sérgio Silva](https://github.com/sergiobslva-iesb), [@Sarah Evelyn](https://github.com/SarahDevIesb), [@Rhuan Justino](https://github.com/RhuanJSouza) |
+
+| **Gestão de Barbearias**                                                                                                                                                                                                                                                  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| A proposta deste projeto é criar um app que seja caapaz de auxiliar os barbeiros com as suas atividades mais comuns do dia-a-dia.. Dando a eles a possibilidade de verificar ganhos mensais, agendamentos de clientes, gestão de planos mensais e pagamento tudo via APP. |
 
 ## Gestão de Barbearias V1
 [Escopo Completo - Repositório do Projeto de Dispositivos Móveis](https://github.com/ADS023-Programacao-Dispositivos-Moveis/projeto-pdm-01/)
