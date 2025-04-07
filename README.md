@@ -16,6 +16,9 @@
 ## Gestão de Barbearias V1
 [Escopo Completo - Repositório do Projeto de Dispositivos Móveis](https://github.com/ADS023-Programacao-Dispositivos-Moveis/projeto-pdm-01/)
 
+## Slide da Apresentação
+[Slide da Apresentação - Gestão de Barbearias](https://www.figma.com/slides/CI2R3E6gzYCjydecr2X3em/apresentacao-documento-de-requisitos?node-id=1-42&t=L98zaw3UuyQMYiJO-1)
+
 ## O que é o Projeto
 A proposta deste projeto é criar um app que seja caapaz de auxiliar os barbeiros com as suas atividades mais comuns do dia-a-dia.. Dando a eles a possibilidade de verificar ganhos mensais, agendamentos de clientes, gestão de planos mensais e pagamento tudo via APP.
 
