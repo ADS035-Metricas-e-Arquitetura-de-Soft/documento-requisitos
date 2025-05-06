@@ -33,10 +33,11 @@ A proposta deste projeto é criar a documentação do projeto Pokedex, com o obj
 ## Requisitos do Sistema
 
 ### Lista de Casos de Uso da Pokedex
-- [ ] Caso de Uso I
-- [ ] Caso de Uso II
-- [ ] Caso de Uso III
-- [ ] Caso de Uso IV
+- [ ] Manter Pokemon
+    - [ ] Inserir Pokemon (?)
+    - [ ] Pesquisar Pokemon
+    - [ ] Listar Pokemon
+- [ ] Validar respostas da API
 - [ ] Caso de Uso V
 - [ ] Caso de Uso VI
 - [ ] Caso de Uso VII
